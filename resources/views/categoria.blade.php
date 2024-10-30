@@ -196,11 +196,12 @@
                         <div class="hero__search__form">
                             <form action="#">
                                 <div class="hero__search__categories">
-                                    Categorias
-                                    <span class="arrow_carrot-down"></span>
+                                    <!--coloque um texto aqui-->
+                                    <!--<span class="arrow_carrot-down"></span>-->
+                                    <!--</div>>-->
+                                    <input type="text" placeholder="Do que você precisa?">
+                                    <button type="submit" class="site-btn">Pesquisa</button>
                                 </div>
-                                <input type="text" placeholder="Do que você precisa?">
-                                <button type="submit" class="site-btn">Pesquisa</button>
                             </form>
                         </div>
                         <div class="hero__search__phone">
@@ -232,30 +233,30 @@
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
-                            <h5><a href="#">Fruits & Vegetables</a></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
+                            <h5><a href="#">Frutas e Verduras</a></h5>
                             <!--http://127.0.0.1:8000/produto/Fruits%20&%20Vegetables-->
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="img/categories/cat-2.jpg">
-                            <h5><a href="#">Beverages</a></h5> <!--http://127.0.0.1:8000/produto/Beverages-->
+                            <h5><a href="#">Grãos, Óleos e Temperos</a></h5>
+                            <!--http://127.0.0.1:8000/produto/Beverages-->
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <!--<div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
                             <h5><a href="#">Cleaning & Household</a></h5>
-                            <!--http://127.0.0.1:8000/produto/Cleaning%20&%20Household-->
                         </div>
-                    </div>
+                    </div>-->
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
-                            <h5><a href="#">drink fruits</a></h5>
+                            <h5><a href="#">Bebidas</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
-                            <h5><a href="#">carne</a></h5>
+                            <h5><a href="#">Ovos, Carnes e Peixes</a></h5>
                         </div>
                     </div>
                 </div>

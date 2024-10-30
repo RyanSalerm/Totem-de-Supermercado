@@ -16,6 +16,6 @@ Route::get('/propaganda', function () {
 /*Route::get('/categoria', function () {
     return view('welcome');
 });*/
-Route::get('/', [TemplateController::class, 'home']);
-Route::get('/categoria', [CategoriaController::class, 'categoria']);
+Route::get('/teste', [TemplateController::class, 'home']);
+Route::get('/', [CategoriaController::class, 'categoria']);
 Route::get('/produto/{nomeCategoria}', [CategoriaController::class, 'produto'])->name('produtos.categoria');
